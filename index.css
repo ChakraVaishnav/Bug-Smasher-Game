@@ -1,0 +1,61 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.lives {
+    top: 20px;
+    position: absolute;
+    right: 50px;
+}
+.score {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.hs {
+    position: absolute;
+    right: 50px;
+    top: 80px;
+}
+.game-area{
+    width: 600px;
+    height: 600px;
+    background:rgb(14, 14, 69);
+    border: 2px solid #000;
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.game-area .head{
+    position: absolute;
+    left: 16%;
+    top: 20%;
+    font-size: 70px;
+    font-family:monospace;
+}
+.start{
+    position: absolute;
+    left: 47%;
+    top:40%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:black ;
+    color:rgb(239, 239, 239);
+}
+.bug {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background: url('bug.png') no-repeat center/cover; /* Assuming you have an image for the bug */
+    cursor: pointer;
+}
+
