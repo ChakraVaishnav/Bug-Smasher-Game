@@ -18,7 +18,7 @@ function startGame() {
     high.textContent='High score :'+highScore;
     startBt.style.display = 'none'; 
     heading.style.display='none';
-    gameInterval = setInterval(spawnBug, 5000);
+    gameInterval = setInterval(spawnBug, 3000);
 }
 
 function spawnBug() {
