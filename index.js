@@ -49,7 +49,7 @@ function spawnBug() {
             l--; 
             livesEle.textContent = 'lives ❤️: ' + l;
         }
-    }, 1300);
+    }, 5000);
 }
 
 function endGame() {
