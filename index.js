@@ -49,7 +49,7 @@ function spawnBug() {
             l--; 
             livesEle.textContent = 'lives ❤️: ' + l;
         }
-    }, 5000);
+    }, 3000);
 }
 
 function endGame() {
@@ -64,3 +64,4 @@ function endGame() {
     startBt.style.display = 'block'; 
     heading.style.display='block';
 }
+
